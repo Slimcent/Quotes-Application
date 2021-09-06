@@ -1,0 +1,25 @@
+﻿@model RandomQuotes.Models.QuotesViewModel
+@using RandomQuotes.Controllers
+@{
+    ViewData["Title"] = "Quotes Home";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+    </div>
+    <div class="text-center">
+        <span>
+            <a class="btn btn-primary" asp-action="./Views/Quote">View Quotes</a>
+        </span>
+        <span>
+            <a class="btn btn-primary" asp-action="./Quote/Add">Add a Quote</a>
+        </span>
+    </div>
+</body>
+</html>

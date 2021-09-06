@@ -1,0 +1,28 @@
+﻿@model RandomQuotes.Models.QuotesViewModel
+@{
+    ViewData["Title"] = "Adding Quote";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <form asp-action="Add" method="post">
+        <h1>Add a new Quote</h1>
+        <div>
+            <label asp-for="Quote">Enter Quote:</label>
+            <input asp-for="Quote" />
+            <span asp-validation-for="Quote" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Author">Provide Author</label>
+            <input asp-for="Author" />
+            <span asp-validation-for="Author" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</body>
+</html>
