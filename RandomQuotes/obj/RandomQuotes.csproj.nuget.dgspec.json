@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\RandomQuotes.csproj": {}
+    "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\RandomQuotes.csproj": {
+    "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\RandomQuotes.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj",
         "projectName": "RandomQuotes",
-        "projectPath": "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\RandomQuotes.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

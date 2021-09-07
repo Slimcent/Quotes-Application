@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rOVbStfXzR7c2fUH0RmzPbh5aDrqQNSxAPuT3aFKdY6LFL1/Lk+Hp512iiGe8j9t7ytEVembFsWux0K0tEtkQA==",
+  "dgSpecHash": "BrthMZYUJi1Hhbq+9Zaf+NhcMEOQYP3//A0n7cjSwruG4IcVUGJUarGN4pCHZbykZ2Vd4tL75yakYnjWo/J//Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\RandomQuotes\\RandomQuotes\\RandomQuotes.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer\\2.11.10\\humanizer.2.11.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.11.10\\humanizer.core.2.11.10.nupkg.sha512",
