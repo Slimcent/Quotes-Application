@@ -12,12 +12,24 @@ namespace RandomQuotes.Controllers
     public class QuoteController : Controller
     {
         EntitiesContext dbcontext = new EntitiesContext();
-        public IActionResult Index()
+        public IActionResult Index(int pg=1)
         {
             Random random = new Random();
-            //var res = dbcontext.Quotes.AsNoTracking().OrderByDescending(q => q.Quote);
             var res = dbcontext.Quotes.OrderBy(emp => Guid.NewGuid()).AsNoTracking();
-            return View(res);
+
+            const int pageSize = 2;
+            if (pg < 1)
+                pg = 1;
+
+            int recsCount = res.Count();
+
+            var pager = new Pager(recsCount, pg, pageSize);
+            int recSkip = (pg - 1) * pageSize;
+            var data = res.Skip(recSkip).Take(pager.PageSize).AsNoTracking();
+            this.ViewBag.Pager = pager;
+
+            //return View(res);
+            return View(data);
         }
 
         [HttpGet]

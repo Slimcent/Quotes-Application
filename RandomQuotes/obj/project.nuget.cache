@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BrthMZYUJi1Hhbq+9Zaf+NhcMEOQYP3//A0n7cjSwruG4IcVUGJUarGN4pCHZbykZ2Vd4tL75yakYnjWo/J//Q==",
+  "dgSpecHash": "uO7tTCrdauCyUeJMYKHY6wnwFwDbmaqB388qO3238Qog7fUsDnme1peSLJNE2NzyG3XFdTJ6sG1O0tXte3SPSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\RandomQuotes-GH\\RandomQuotes\\RandomQuotes.csproj",
   "expectedPackageFiles": [
@@ -148,8 +148,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
