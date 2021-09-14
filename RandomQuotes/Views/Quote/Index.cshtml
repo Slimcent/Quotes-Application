@@ -1,4 +1,4 @@
-﻿@model IQueryable<RandomQuotes.Models.QuotesViewModel>
+﻿@model IEnumerable<RandomQuotes.Models.QuotesViewModel>
 @using Humanizer
 
 @{
@@ -22,18 +22,18 @@
 </div>
 
 <div>
-    @foreach (var r in Model)
+    @foreach (var results in Model)
     {
     <div class="jumbotron">
-        <p class="text-primary">@r.Quote</p>
-        <span class="text-muted">By @r.Author,</span>
-        <span class="">Created @r.CreatedAt.Humanize()</span>
+        <p class="text-primary">@results.Quote</p>
+        <span class="text-muted">By @results.Author,</span>
+        <span class="">Created @results.CreatedAt.Humanize()</span>
         <div>
             <span>
-                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@r.Id">Edit</a>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@results.Id">Edit</a>
             </span>
             <span>
-                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@r.Id">Delete</a>
+                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@results.Id">Delete</a>
             </span>
         </div>
     </div>
